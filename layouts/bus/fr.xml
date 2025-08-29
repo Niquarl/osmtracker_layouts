@@ -67,9 +67,9 @@
 			<button type="tag" label="Abri Bus" icon="bus_icons/bus_stop.png"/>
 		</row>
 		<row>
-			<button type="tag" label="Banc" icon="bus_icons/button_amenity_bench.png" />
+			<button type="tag" label="Banc" icon="bus_icons/button_amenity_bench.png"/>
 			<button type="tag" label="Ombre"/>
-			<button type="tag" label="panneau" icon="bus_icons/bu_info.png"/>
+			<button type="tag" label="panneau" icon="bus_icons/bud_info.png"/>
 		</row>
 		<row>
 			<button type="tag" label="highway=crossing" icon="bus_icons/Regul_pieton.png"/>
