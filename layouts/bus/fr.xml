@@ -54,12 +54,12 @@
 			<button type="tag" label="maxspeed=30" icon="bus_icons/Vitesse_30.png"/>
 			<button type="tag" label="maxspeed=50" icon="bus_icons/Vitesse_50.png"/>
 			<button type="tag" label="maxspeed=70" icon="bus_icons/Vitesse_70.png"/>
-			
 		</row>
 		<row>
 			<button type="tag" label="maxspeed=80" icon="bus_icons/Vitesse_80.png"/>
 			<button type="tag" label="maxspeed=90" icon="bus_icons/Vitesse_90.png"/>
 			<button type="tag" label="maxspeed=110" icon="bus_icons/Vitesse_110.png"/>
+		</row>
         </layout>
 			<layout name="BUS">
 		<row>
