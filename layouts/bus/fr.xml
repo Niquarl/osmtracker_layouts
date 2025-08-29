@@ -20,7 +20,7 @@
 		<row>
 			<button type="tag" label="highway=give way" icon="bus_icons/Regul_cedez.png"/>
 			<button type="tag" label="highway=stop" icon="bus_icons/Regul_stop.png"/>
-			<button type="tag" label="Arrêt de Bus" icon="bus_icons/bus_stop.png"/>
+			<button type="tag" label="Arrêt de Bus" icon="bus_icons/bus_stop-C6.png"/>
 		</row>
 		<row>
 			<button type="tag" label="priority=forward" icon="bus_icons/Regul_pascedez.png"/>
@@ -63,13 +63,13 @@
         </layout>
 			<layout name="BUS">
 		<row>
-			<button type="tag" label="Arrêt de Bus" icon="bus_icons/bus_stop.png"/>
-			<button type="tag" label="Abri Bus" icon="bus_icons/Regul_stop.png"/>
+			<button type="tag" label="Arrêt de Bus" icon="bus_icons/bus_stop-C6.png"/>
+			<button type="tag" label="Abri Bus" icon="bus_icons/bus_stop.png"/>
 		</row>
 		<row>
-			<button type="tag" label="Banc"/>
+			<button type="tag" label="Banc" icon="bus_icons/button_amenity_bench.png" />
 			<button type="tag" label="Ombre"/>
-			<button type="tag" label="panneau"/>
+			<button type="tag" label="panneau" icon="bus_icons/bu_info.png"/>
 		</row>
 		<row>
 			<button type="tag" label="highway=crossing" icon="bus_icons/Regul_pieton.png"/>
@@ -85,7 +85,7 @@
 		</row>
 		<row>
 			<button type="tag" label="Passge piéton" icon="bus_icons/Regul_pieton.png"/>
-			<button type="tag" label="BUS STOP" icon="bus_icons/bus_stop.png"/>
+			<button type="tag" label="BUS STOP" icon="bus_icons/bus_stop-C6.png"/>
 			<button type="tag" label="D/PARKING" icon="bus_icons/Regul_priorité-droite.png"/>
 		</row>
 		<row>
