@@ -3,6 +3,7 @@
         <layout name="root">
 		<row>
 			<button type="picture" icon="logo_camera"/>
+			<button type="tag" label="Passage piéton" icon="bus_icons/Regul_pieton.png"/>
 			<button type="textnote" icon="logo_textnote"/>
 		</row>
 		<row>
@@ -11,15 +12,15 @@
 			<button type="page" label="Vitesse" targetlayout="Vitesse" icon="bus_icons/Vitesse_pa.png"/>
 		</row>
 		<row>
-			<button type="tag" label="Arrêt de Bus" icon="bus_icons/Vitesse_pa.png"/>
-			<button type="page" label="BUS" targetlayout="BUS" icon="bus_icons/Vitesse_pa.png"/>
-			<button type="page" label="Droite" targetlayout="Droite" icon="bus_icons/Vitesse_pa.png"/>
+			<button type="tag" label="Arrêt de Bus" icon="bus_icons/bus_stop-C6.png"/>
+			<button type="page" label="BUS" targetlayout="BUS" icon="bus_icons/bus_stop.png"/>
+			<button type="page" label="Plus" targetlayout="Plus" icon="bus_icons/amenity_health.png"/>
 		</row>
         </layout>
 	<layout name="Regulation">
 		<row>
-			<button type="tag" label="highway=give way" icon="bus_icons/Regul_cedez.png"/>
-			<button type="tag" label="highway=stop" icon="bus_icons/Regul_stop.png"/>
+			<button type="tag" label="Cédez-le-passage" icon="bus_icons/Regul_cedez.png"/>
+			<button type="tag" label="Stop" icon="bus_icons/Regul_stop.png"/>
 			<button type="tag" label="Arrêt de Bus" icon="bus_icons/bus_stop-C6.png"/>
 		</row>
 		<row>
@@ -28,9 +29,9 @@
 			<button type="tag" label="traffic_sign=FR:AB1" icon="bus_icons/Regul_priorité-droite.png"/>
 		</row>
 		<row>
-			<button type="tag" label="highway=crossing" icon="bus_icons/Regul_pieton.png"/>
-			<button type="tag" label="Passage surélévé" icon="bus_icons/Regul_pieton.png"/>
-			<button type="tag" label="traffic_calming=bump" icon="bus_icons/Regul_dosdane.png"/>
+			<button type="tag" label="Passage piéton" icon="bus_icons/Regul_pieton.png"/>
+			<button type="tag" label="Passage surélévé" icon="bus_icons/Regul_pieton-ralentisseur.png"/>
+			<button type="tag" label="Ralentisseur" icon="bus_icons/Regul_dosdane.png"/>
 		</row>
         </layout>
 	<layout name="Etat">
@@ -48,7 +49,7 @@
 		<row>
 			<button type="tag" label="Vitesse connu" icon="bus_icons/Vitesse_co.png"/>
 			<button type="tag" label="traffic_sign=FR:B14[xx]|direction=*" icon="bus_icons/Vitesse_pa.png"/>
-			<button type="tag" label="maxspeed=00" icon="bus_icons/Vitesse_00.png"/>
+			<button type="tag" label="Vitesse Fin" icon="bus_icons/Vitesse_00.png"/>
 		</row>
 		<row>
 			<button type="tag" label="maxspeed=30" icon="bus_icons/Vitesse_30.png"/>
@@ -64,34 +65,34 @@
 			<layout name="BUS">
 		<row>
 			<button type="tag" label="Arrêt de Bus" icon="bus_icons/bus_stop-C6.png"/>
-			<button type="tag" label="Abri Bus" icon="bus_icons/bus_stop.png"/>
+			<button type="tag" label="Abri Bus" icon="bus_icons/bus_abri.png"/>
 		</row>
 		<row>
-			<button type="tag" label="Banc" icon="bus_icons/button_amenity_bench.png"/>
+			<button type="tag" label="Banc" icon="bus_icons/bus_banc.png"/>
 			<button type="tag" label="Ombre"/>
 			<button type="tag" label="panneau" icon="bus_icons/bus_info.png"/>
 		</row>
 		<row>
-			<button type="tag" label="highway=crossing" icon="bus_icons/Regul_pieton.png"/>
-			<button type="tag" label="traffic_calming=bump" icon="bus_icons/Regul_dosdane.png"/>
-			<button type="tag" label="DOS DANE" icon="bus_icons/Regul_priorité-droite.png"/>
+			<button type="tag" label="Passage pieton" icon="bus_icons/Regul_pieton.png"/>
+			<button type="tag" label="Ralentisseur" icon="bus_icons/Regul_dosdane.png"/>
+			<button type="tag" label="Passage surélévé" icon="bus_icons/Regul_pieton-ralentisseur.png"/>
 		</row>
         </layout>
 			<layout name="Droite">
 		<row>
-			<button type="tag" label="D/highway=give way" icon="bus_icons/Regul_cedez.png"/>
-			<button type="tag" label="D/highway=stop" icon="bus_icons/Regul_stop.png"/>
-			<button type="tag" label="ONEWAY/NOTURNING" icon="bus_icons/button_restriction_one_way.png"/>
+			<button type="tag" label="Gauche" icon="bus_icons/Arrow_left.png"/>
+			<button type="tag" label="Avant" icon="bus_icons/Arrow_back.png"/>
+			<button type="tag" label="Droite" icon="bus_icons/Arrow_right.png"/>
 		</row>
 		<row>
-			<button type="tag" label="Passge piéton" icon="bus_icons/Regul_pieton.png"/>
+			<button type="tag" label="Cédez-le-passage" icon="bus_icons/Regul_cedez.png"/>
 			<button type="tag" label="BUS STOP" icon="bus_icons/bus_stop-C6.png"/>
-			<button type="tag" label="D/PARKING" icon="bus_icons/Regul_priorité-droite.png"/>
+			<button type="tag" label="Stop" icon="bus_icons/Regul_stop.png"/>
 		</row>
 		<row>
-			<button type="tag" label="AMENITY" icon="bus_icons/button_amenitymore_fastfood.png"/>
-			<button type="tag" label="RECYCLING" icon="bus_icons/recycling.png"/>
-			<button type="tag" label="HYDRANT" icon="bus_icons/hydrant.png"/>
+			<button type="tag" label="Trottoir" icon="bus_icons/Sidewalk_start.png"/>
+			<button type="tag" label="Passge piéton" icon="bus_icons/Regul_pieton.png"/>
+			<button type="tag" label="Stationnement de rue" icon="bus_icons/Parking.png"/>
 		</row>
         </layout>
 </layouts>
