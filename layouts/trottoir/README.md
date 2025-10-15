@@ -15,6 +15,8 @@ Je vous conseillerais aussi de participer au projet [Panoramax](https://panorama
 - Bouton pour "nid-de-poule"
 - Boutons notes photo, audio, texte
 
+[!](layouts\screenshots\Screenshot_trottoir.png)
+
 
 # Trottoir sur OSM (=sidewalk)
 
