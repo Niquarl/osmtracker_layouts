@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+        <layout name="root">
+		<row>
+			<button type="picture" icon="logo_camera"/>
+			<button type="textnote" icon="logo_textnote"/>
+			<button type="voicerec" icon="logo_voice"/>
+		</row>
+		<row>
+			<button type="tag" label="Trottoir Gauche Fin" icon="trottoir_icons/trottoir_gauche-fin.png"/>
+			<button type="tag" label="Nid de Poule" icon="trottoir_icons/nid-de-poule.png"/>
+			<button type="tag" label="Trottoir Droite Fin" icon="trottoir_icons/trottoir_droite-fin.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Ressaut Relevé" icon="trottoir_icons/ressaut_élevé.png"/>
+			<button type="tag" label="Bande Podotactile" icon="trottoir_icons/bande_podotactile.png"/>
+			<button type="tag" label="Ressaut Abaissé" icon="trottoir_icons/ressaut_abaissé.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Trottoir Gauche début" icon="trottoir_icons/trottoir_gauche.png"/>
+			<button type="tag" label="Passage Piéton" icon="trottoir_icons/Regul_pieton.png"/>
+			<button type="tag" label="Trottoir Droite début" icon="trottoir_icons/trottoir_droite.png"/>
+		</row>
+        </layout>
+</layouts>
